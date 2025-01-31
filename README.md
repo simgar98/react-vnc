@@ -7,22 +7,14 @@
     <img src="https://project-logo.png" alt="Logo" width="80">
   </a> -->
 
-  <h3 align="center">react-vnc-gutted</h3>
+  <h1 align="center">react-vnc-gutted</h3>
 
   <p align="center">
-    A React Component to connect to a websockified VNC client using noVNC.
-    <br />
-    <a href="https://github.com/roerohan/react-vnc"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://roerohan.github.io/react-vnc/">View Demo</a>
-    ·
-    <a href="https://github.com/roerohan/react-vnc/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/roerohan/react-vnc/issues">Request Feature</a>
+    This is a gutted version of the react-vnc project by Roerohan.<br/>
+    Its only purpose is having as few dependencies as possible, to make it compatible with another project.<br/>
+    <strong>All credit goes to the original contributors at the original project <a href="https://github.com/roerohan/react-vnc">here</a></strong>
   </p>
 </p>
-
 
 
 <!-- TABLE OF CONTENTS -->

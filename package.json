@@ -4,7 +4,7 @@
   "version": "3.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roerohan/react-vnc.git"
+    "url": "git+https://github.com/roerohan/react-vnc-gutted.git"
   },
   "keywords": [
     "vnc",
