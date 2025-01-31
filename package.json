@@ -1,7 +1,7 @@
 {
   "name": "react-vnc-gutted",
   "description": "Stripped down version of react-vnc. Minimal dependencies and build process.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roerohan/react-vnc.git"
@@ -13,16 +13,8 @@
     "websocket",
     "websockify"
   ],
-  "main": "dist/index.js",
-  "typings": "dist/types/lib/index.d.ts",
-  "module": "dist/index.es.js",
-  "exports": {
-    ".": {
-      "types": "./dist/types/lib/index.d.ts",
-      "import": "./dist/index.es.js",
-      "require": "./dist/index.js"
-    }
-  },
+  "main": "dist/lib/index.js",
+  "types": "dist/types/lib/index.d.ts",
   "files": [
     "dist"
   ],
@@ -43,7 +35,7 @@
   },
   "scripts": {
     "clean": "rm -rf ./dist",
-    "build": "tsc --build --verbose",
+    "build": "tsc",
     "test": "echo \"No tests on this project\""
   },
   "typeScriptVersion": "5.0"
