@@ -7,7 +7,7 @@
     <img src="https://project-logo.png" alt="Logo" width="80">
   </a> -->
 
-  <h3 align="center">react-vnc</h3>
+  <h3 align="center">react-vnc-gutted</h3>
 
   <p align="center">
     A React Component to connect to a websockified VNC client using noVNC.
@@ -30,13 +30,10 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-  * [Demo](#demo)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contributors](#contributors-)
 
@@ -48,12 +45,6 @@
 [noVNC](https://github.com/novnc/noVNC) is a VNC client web application using which you can view a VNC stream directly on a browser. It uses [websockify](https://github.com/novnc/websockify) to convert the VNC stream into a websocket stream, which can be viewed on a browser. This library provides a `React` component wrapper around the `noVNC` web client.
 
 Using this library, you can easily display a VNC stream on a page of your web application. [Here](#usage) is an example.
-
-### Demo
-
-A demo website using the `react-vnc` library is hosted on [https://roerohan.github.io/react-vnc/](https://roerohan.github.io/react-vnc/). The source for this application can be found in [src/App.tsx](./src/App.tsx).
-
-<img src="./public/demo.png" alt="demo" width="800">
 
 
 ### Built With
@@ -88,12 +79,6 @@ cd react-vnc
 ```bash
 npm install
 git submodule update --init --recursive
-```
-
-3. To run the sample `react-vnc` web application:
-```bash
-echo "REACT_APP_VNC_URL=ws://your-vnc-url.com" > .env
-npm start
 ```
 
 4. To build the library, make changes inside the `lib` folder, then run:
@@ -189,20 +174,6 @@ The `onConnect`, `onDisconnect`, and `onCredentialsRequired` callbacks can accep
 
 See the [open issues](https://github.com/roerohan/react-vnc/issues) for a list of proposed features (and known issues).
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-You are requested to follow the contribution guidelines specified in [CONTRIBUTING.md](./CONTRIBUTING.md) while contributing to the project :smile:.
 
 <!-- LICENSE -->
 ## License
