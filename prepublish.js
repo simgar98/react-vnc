@@ -4,7 +4,6 @@ const pkg = require("./package.json");
 // NOTE(roerohan): remove dependencies that are not needed for the library.
 const {
 	react,
-	"react-scripts": reactScripts,
 	"react-dom": reactDom,
 	"@testing-library/jest-dom": testingLibraryjestDom,
 	"@testing-library/react": testingLibraryReact,
